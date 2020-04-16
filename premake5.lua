@@ -40,16 +40,13 @@ project "yojimbo"
     vectorextensions "SSE2"
 
     filter "configurations:Debug"
-        defines "LI_DEBUG"
         runtime "Debug"
         symbols "on"
 
     filter "configurations:Release"
-        defines "LI_RELEASE"
         runtime "Release"
         optimize "on"
     
     filter "configurations:Dist"
-        defines "LI_DIST"
         runtime "Release"
         optimize "on"
