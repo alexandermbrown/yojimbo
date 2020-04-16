@@ -1,5 +1,6 @@
 
-libs = { "sodium", "mbedtls", "mbedx509", "mbedcrypto" }
+--libs = { "sodium", "mbedtls", "mbedx509", "mbedcrypto" }
+libs = { "sodium", "mbedtls" }
 
 project "yojimbo"
     kind "StaticLib"
